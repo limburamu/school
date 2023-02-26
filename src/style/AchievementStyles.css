@@ -1,0 +1,48 @@
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.path {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: aqua; */
+    opacity: 0.5;
+}
+
+.main .achievementContainer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.main .achievementContainer h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    color: brown;
+}
+
+.main .achievementContainer p {
+    font-size: 2rem;
+    color: white;
+}

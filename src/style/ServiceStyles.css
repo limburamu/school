@@ -1,0 +1,18 @@
+.top {
+    height: 100%;
+    width: 100%;
+}
+
+.new {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
